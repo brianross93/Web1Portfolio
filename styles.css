@@ -3,20 +3,22 @@ body {
     background-color: rgb(80,134,236);
     color: color(22,150,54);
     line-height: 1.5;
-    padding: 50px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
 }
 
-.container {
-    width: 200px;
-    height: 120px;
-    padding: 10em;
+.Pic{
+    display: block;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    transform: scale(0.5, 0.5); /*translate(800px);*/
+
+
 }
 
-/* resize images */
-.container img {
-    width: 100%;
-    height: auto;
-}
+
 
 .container2 {
     text-align: center;
@@ -28,11 +30,16 @@ nav {
 	text-align: left;
 	padding: 10px 0;
     margin: 20px 0 0;
+    display: flex; 
+    justify-content: center;
     
 }
 p {
+    display:block;
+    margin: auto;
     text-align: center;
     text-overflow: clip;
+
 
     
 }
@@ -41,7 +48,10 @@ ul {
 
 }
 header {
+    display: flex;
+    justify-content: center;
     text-align: center;
+
     
 }
 li {
